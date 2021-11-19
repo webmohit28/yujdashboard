@@ -1,0 +1,118 @@
+/*========Header Section===========*/
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+
+header .container {
+  position: relative;
+}
+
+.header-logo {
+  padding-right: 30px;
+  text-align: right;
+}
+
+.codemithra-mob-logo,
+.custom-head-menu {
+  display: none;
+}
+
+.header-logo a {
+  display: block;
+  outline: none;
+  background: url(https://www.yujdesigns.com/wp-content/uploads/2020/08/sprite_YUJ-svg-logo-02.svg) !important;
+  background-position: 0 -47px !important;
+  width: 229px;
+  height: 46px;
+  background-size: 229px 234px !important;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li {
+  margin: 0px 30px;
+}
+
+header nav ul li:first-child {
+  margin-left: 0px;
+}
+
+header nav ul li a {
+  color: #112a3e;
+  text-decoration: none;
+  display: block;
+}
+
+header nav ul li a:hover {
+  color: #fa664a;
+}
+
+header nav ul li.active a {
+  font-weight: 600;
+}
+
+header nav ul li.cust-btn a,
+.logout-btn {
+  font-weight: 700;
+  background: #eee;
+  padding: 6px 7px;
+  border-radius: 3px;
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+header nav ul li:last-child {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+header nav ul li.sign-up a {
+  background: #fa664a;
+}
+
+header nav ul li.log-in a {
+  background: #35538d;
+}
+
+header nav ul li.log-in a:hover,
+header nav ul li.sign-up a:hover {
+  background: #112a3e;
+}
+
+header nav ul li.sign-up {
+  margin-right: 15px;
+}
+
+header {
+  box-shadow: 0px 3px 6px #00000029;
+  background: #fff;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  background: #fff;
+  width: 100%;
+  left: 0px;
+  z-index: 9999;
+  max-width: 1920px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.homepage header {
+  z-index: 99;
+}

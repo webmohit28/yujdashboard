@@ -1,1 +1,156 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600&display=swap");
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+html {
+  scroll-behavior: unset;
+}
+
+* {
+  box-sizing: border-box;
+  caret-color: transparent;
+}
+
+html,
+body {
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+body {
+  overflow-x: hidden;
+  padding-top: 100px;
+}
+
+dl,
+ol,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+input,
+textarea {
+  caret-color: #1f3a5d;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0px 65px;
+}
+
+.comn-padd {
+  padding: 60px 0px;
+}
+
+.grey-bg {
+  background-color: #f8f8f8;
+}
+
+.yellow-bg {
+  background-color: rgb(249 202 82 / 10%);
+}
+
+h2 {
+  margin: 0px;
+  font-family: "Halant", serif;
+  font-size: 2.625rem;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+h4 {
+  font-weight: 600;
+  color: #112a3e;
+  line-height: 1.4;
+  font-size: 1.625rem;
+  margin-bottom: 30px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+h5 {
+  font-size: 1.5625rem;
+  font-family: "Noto Sans", sans-serif;
+}
+
+h6 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #112a3e;
+  margin-bottom: 10px;
+  line-height: 1.4;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.desk-hide {
+  display: none;
+}
+
+a.comn-btn {
+  background: #fa664a;
+  color: #fff;
+  padding: 5px 15px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  font-weight: 700;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.blue-bgbtn,
+a.blue-bgbtn {
+  background: #35538d;
+  color: #fff;
+}
+
+a.comn-btn:hover,
+.blue-bgbtn:hover {
+  background: #112a3e;
+}
+
+#scroll-top {
+  background: #35538d;
+  width: 35px;
+  height: 35px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  font-size: 0px;
+  z-index: 999;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: none;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
