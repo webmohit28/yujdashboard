@@ -1,11 +1,15 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
 
-import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
-import { MainContainerComponent } from './main-container/main-container.component';
+import { AppComponent } from "./app.component";
+import { HeaderComponent } from "./header/header.component";
+import { FooterComponent } from "./footer/footer.component";
+import { SidebarComponent } from "./sidebar/sidebar.component";
+import { MainContainerComponent } from "./main-container/main-container.component";
+import { FormarrayCompComponent } from "./main-container/formarray-comp/formarray-comp.component";
+import { ReactiveFormsModule } from "@angular/forms";
+import { ProfileComponent } from "./profile/profile.component";
+import { ListProfileComponent } from './list-profile/list-profile.component';
 
 @NgModule({
   declarations: [
@@ -13,12 +17,13 @@ import { MainContainerComponent } from './main-container/main-container.componen
     HeaderComponent,
     FooterComponent,
     SidebarComponent,
-    MainContainerComponent
+    MainContainerComponent,
+    FormarrayCompComponent,
+    ProfileComponent,
+    ListProfileComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule, ReactiveFormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
