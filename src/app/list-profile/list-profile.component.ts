@@ -11,8 +11,45 @@ export class ListProfileComponent implements OnInit {
   ngOnInit(): void {}
 
   products: any[] = [
-    { name: "coffee", description: "thuis idsjbdbd" },
-    { name: "coffee2", description: "thuis idsjbdbd" },
-    { name: "coffee3", description: "thuis idsjbdbd" },
+    {
+      name: "coffee",
+      description: "thuis idsjbdbd",
+      img: "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    },
+    {
+      name: "coffee2",
+      description: "thuis idsjbdbd",
+      img: "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    },
+    {
+      name: "coffee3",
+      description: "thuis idsjbdbd",
+      img: "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    },
+    {
+      name: "coffee",
+      description: "thuis idsjbdbd",
+      img: "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    },
+    {
+      name: "coffee2",
+      description: "thuis idsjbdbd",
+      img: "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    },
+    {
+      name: "coffee3",
+      description: "thuis idsjbdbd",
+      img: "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    },
+    {
+      name: "coffee",
+      description: "thuis idsjbdbd",
+      img: "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    },
+    {
+      name: "coffee2",
+      description: "thuis idsjbdbd",
+      img: "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    },
   ];
 }

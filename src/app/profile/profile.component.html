@@ -1,4 +1,12 @@
-<p>profile works!</p>
 {{ parentTochild }}
 
-<div>{{ productConfig.name }}</div>
+<div></div>
+
+<div class="card">
+  <img class="card-img-top" [src]="productConfig.img" alt="Card image cap" />
+  <div class="card-body">
+    <h5 class="card-title">{{ productConfig.name }}</h5>
+    <p class="card-text">S{{ productConfig.description }}</p>
+    <a href="#" class="btn btn-primary">Shop Now</a>
+  </div>
+</div>

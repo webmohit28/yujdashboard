@@ -8,7 +8,7 @@ import { Component, EventEmitter, Input, OnInit, Output } from "@angular/core";
 export class ProfileComponent implements OnInit {
   @Input() parentTochild: any = "";
   @Output() childToparent: any = new EventEmitter();
-  @Input() productConfig;
+  @Input() productConfig: { name: string; description: string; img: string };
 
   constructor() {}
 

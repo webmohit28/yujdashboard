@@ -10,6 +10,10 @@ import { FormarrayCompComponent } from "./main-container/formarray-comp/formarra
 import { ReactiveFormsModule } from "@angular/forms";
 import { ProfileComponent } from "./profile/profile.component";
 import { ListProfileComponent } from './list-profile/list-profile.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { LoginComponent } from './login/login.component';
+import { RegistrationComponent } from './registration/registration.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +25,10 @@ import { ListProfileComponent } from './list-profile/list-profile.component';
     FormarrayCompComponent,
     ProfileComponent,
     ListProfileComponent,
+    DashboardComponent,
+    LoginComponent,
+    RegistrationComponent,
+    NotfoundComponent,
   ],
   imports: [BrowserModule, ReactiveFormsModule],
   providers: [],
